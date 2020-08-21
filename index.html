@@ -3,6 +3,7 @@
 
 
 
+
 <!doctype html>
 <html lang="nl">
 
@@ -89,6 +90,12 @@ border: 1px solid #fff;
                 <li class="nav-item mr-3 ">
                     <a class="nav-link link-black" href="https://DuckMC.github.io/videos/">Content</a>
                 </li>
+                <li class="nav-item mr-3 ">
+                    <a class="nav-link link-black" href="https://DuckMC.github.io/speedruns/">Speedruns</a>
+                </li>
+                <li class="nav-item mr-3 ">
+                    <a class="nav-link link-black" href="https://DuckMC.github.io/cps/">CPS Tester</a>
+                </li>
                 <li class="nav-item mr-3 1">
                     <a class="nav-link link-black" href="https://DuckMC.github.io/contact/">Contact</a>
                 </li>
@@ -128,7 +135,7 @@ border: 1px solid #fff;
         <a class="navbar-brand" href="http://www.duckmc.eu">
                             <a href="https://instagram.com/duckmc.eu" target="_blank"><i class="fab fa-instagram fa-2x mr-2 link-white"></i></a>
                             <a href="https://www.youtube.com/channel/UC-Bp5cB_PuQpTHLvhCZhqLA" target="_blank"><i class="fab fa-youtube fa-2x mr-2 link-white"></i></a>
-                            <a href="https://DuckMC.github.io/play/" target="_blank"><i class="fas fa-gamepad fa-2x mr-2 link-white"></i></a>
+                            <a href="https://DuckMC.github.io/play/"><i class="fas fa-gamepad fa-2x mr-2 link-white"></i></a>
         </a>
         <button class="navbar-toggler toggle-nav" type="button" id="toggle-nav">
             <span class="navbar-toggler-icon"></span>
@@ -143,6 +150,12 @@ border: 1px solid #fff;
                 </li>
                 <li class="nav-item mr-3 ">
                     <a class="nav-link" href="https://DuckMC.github.io/videos/">Content</a>
+                </li>
+                <li class="nav-item mr-3 ">
+                    <a class="nav-link" href="https://DuckMC.github.io/speedruns/">Speedruns</a>
+                </li>
+                <li class="nav-item mr-3 ">
+                    <a class="nav-link" href="https://DuckMC.github.io/cps/">CPS Tester</a>
                 </li>
                 <li class="nav-item mr-3 1">
                     <a class="nav-link" href="https://DuckMC.github.io/contact/">Contact</a>
@@ -206,7 +219,7 @@ border: 1px solid #fff;
 <center><div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> ALL GAMES</button>
   <button class="btn" onclick="filterSelection('PVP')"> PVP</button>
-  <button class="btn" onclick="filterSelection('ARCADE')"> ARCADE GAMES</button>
+  <button class="btn" onclick="filterSelection('NON')"> NON PVP</button>
   <button class="btn" onclick="filterSelection('WARS')"> WARS GAMES</button>
   <button class="btn" onclick="filterSelection('TRAINING')"> TRAINING</button>
 </div>
@@ -221,13 +234,22 @@ border: 1px solid #fff;
   <div class="filterDiv PVP TRAINING">The Bridge <img src="https://i.imgur.com/iTnZSSk.png"
      width="50"
      height="50"></div>
-  <div class="filterDiv ARCADE PVP TRAINING">OITC <img src="https://i.imgur.com/ody4PAY.png"
+  <div class="filterDiv PVP TRAINING">OITC <img src="https://i.imgur.com/ody4PAY.png"
      width="50"
      height="50"></div>
-  <div class="filterDiv ARCADE">Hide & Seek <img src="https://i.imgur.com/UmTDDs8.png"
+  <div class="filterDiv NON TRAINING">Parkour <img src="https://i.imgur.com/VUy5KGJ.png"
      width="50"
      height="50"></div>
-  <div class="filterDiv ARCADE">DuckHunt <img src="https://i.imgur.com/1opt4FB.png"
+  <div class="filterDiv NON">DuckHunt <img src="https://i.imgur.com/1opt4FB.png"
+     width="50"
+     height="50"></div>
+  <div class="filterDiv NON">TNT Run <img src="https://i.imgur.com/IPHvZrR.png"
+     width="50"
+     height="50"></div>
+  <div class="filterDiv NON">GUI Arcade <img src="https://i.imgur.com/8GrFsc8.png"
+     width="50"
+     height="50"></div>
+  <div class="filterDiv NON">Themepark <img src="https://i.imgur.com/tc5TFBp.png"
      width="50"
      height="50"></div>
 </div></center>
